@@ -1,0 +1,23 @@
+{
+    "name": "gitch",
+    "description": "Web Interface for GIT",
+    "keywords": [
+        "git",
+        "web",
+        "php"
+    ],
+    "license": "GNU",
+    "config": {
+        "bin-dir": "./bin"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "robmorgan/phinx": "*",
+        "zendframework/zendframework": "2.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*",
+        "fiunchinho/phpunit-randomizer":"2.0.*",
+        "zendframework/zftool": "dev-master"
+    }
+}
